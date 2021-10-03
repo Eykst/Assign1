@@ -1,0 +1,21 @@
+---
+title: "Assignment 1"
+author: "Skye"
+date: "9/29/2021"
+output: html_document
+---
+
+## R Code
+
+This is a simple code to print the numbers 1 to 10
+
+```{r cars}
+for (i in 1:10){
+  print(i)
+}
+```
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
